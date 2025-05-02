@@ -1,5 +1,5 @@
 # Asymmetric_Rewiring
-This repository accompanies the article "Global Change Asymmetrically Rewires Ecosystems". In this synthesis, we examine how anthropogenic pressures asymmetrically rewire the spatial structure of food webs, with consequences for ecosystem functions and resilience. This repository contains both theoretical modelling code (Julia) and empirical synthesis code (R) used to generate the figures and results in the main text and supplementary materials of this article.
+This repository contains the code and data necessary to plot the empirical and theoretical results presented in the article "Global Change Asymmetrically Rewires Ecosystems". In this synthesis, we examine how anthropogenic pressures asymmetrically rewire the spatial structure of food webs, with consequences for ecosystem functions and resilience. This repository contains both theoretical modelling code (Julia) and empirical synthesis code (R) used to generate the figures and results in the main text and supplementary materials of this article.
 
 Repository Contents
 
