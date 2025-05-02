@@ -2,7 +2,9 @@
 This repository accompanies the article "Global Change Asymmetrically Rewires Ecosystems". In this synthesis, we examine how anthropogenic pressures asymmetrically rewire the spatial structure of food webs, with consequences for ecosystem functions and resilience. This repository contains both theoretical modelling code (Julia) and empirical synthesis code (R) used to generate the figures and results in the main text and supplementary materials of this article.
 
 Repository Contents
+
 **empirical_data_plots.R**
+
 This R script generates empirical summary figures from our review of habitat coupling studies (Dataset S1 found in the Data folder of this repository).
 
 The code includes:
@@ -17,6 +19,7 @@ Key R packages: ggplot2, tidyverse, patchwork
 
 
 **asymmetric_foodweb_model.jl**
+
 This Julia script contains a dynamical model of a generalist food web module, consisting of two basal resources (R1, R2), two intermediate consumers (C1, C2), and a top predator (P). It is used to simulate the ecological consequences of asymmetric changes in habitat productivity (i.e., changes to K1, the carrying capacity of R1) under both deterministic and stochastic scenarios.
 
 The code includes:
