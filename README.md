@@ -6,9 +6,7 @@ Repository Contents
 This R script generates empirical summary figures from our review of habitat coupling studies (Dataset S1 found in the Data folder of this repository).
 
 The code includes:
-- Barplots summarizing study results by:
-- Pressure category (e.g., climate change, nutrient pollution, etc.)
-- Mechanism of shift (e.g., changes in accessibility or resource density)
+- Barplots summarizing study results by: pressure category (e.g., climate change, nutrient pollution, etc.), mechanism of shift (e.g., changes in accessibility or resource density)
 - Visualization logic for Figure 2b and Figure 2c in the main text.
 
 Data used in this analysis are available in DatasetS1.csv, which includes directional change (increase, decrease, no change) in habitat coupling for each study, the associated anthropogenic pressure, ecosystem type, and identified mechanism.
