@@ -45,12 +45,10 @@ mechanism_df <- df_coupling %>%
   reframe(count = n()) %>%
   na.omit()
 
-# First, calculate total counts per mechanism
 mechanism_totals <- mechanism_df %>%
   group_by(mechanism) %>%
   summarise(total_n = sum(count))
 
-# Join and reorder by total_n
 mechanism_df <- mechanism_df %>%
   left_join(mechanism_totals, by = "mechanism") %>%
   mutate(mechanism = reorder(mechanism, -total_n))
