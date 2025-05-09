@@ -20,14 +20,14 @@ Key R packages: ggplot2, tidyverse, patchwork
 
 **asymmetric_foodweb_model.jl**
 
-This Julia script contains a dynamical model of a generalist food web module, consisting of two basal resources (R1, R2), two intermediate consumers (C1, C2), and a top predator (P). It is used to simulate the ecological consequences of asymmetric changes in habitat productivity (i.e., changes to K1, the carrying capacity of R1) under both deterministic and stochastic scenarios.
+This Julia script contains a dynamical systems model of a generalist food web module, consisting of two basal resources (R1, R2), two intermediate consumers (C1, C2), and a top predator (P). It is used to simulate the ecological consequences of asymmetric rewiring driven by differential impacts from anthropogenic pressures on distinct habitats under both deterministic and stochastic scenarios.
 
 The code includes:
 - A five-species ODE system with flexible predator foraging preference (Ω) that can be fixed or density-dependent (ω).
-- Simulations over a gradient of K1 values, holding K2 constant, to reflect increasing asymmetry in habitat quality.
-- Calculation and plotting of: equilibrium densities for all species; predator:consumer biomass ratios; primary, intermediate, and secondary (predator) production; predator habitat coupling; local stability via maximum real eigenvalues of the Jacobian; predator population variability (CV) under Gaussian white noise
+- Simulations over a gradient of K1 values, holding K2 constant, to reflect differential change in habitat productivity.
+- Calculation and plotting of: equilibrium densities for all species; predator:consumer biomass ratios; resource, consumer, and predator production; predator habitat coupling; local stability via maximum real eigenvalues of the Jacobian; predator population variability (CV) under Gaussian white noise
 
-The model is used to illustrate how food web responses shift across structural (coupling), functional (production), and dynamical (stability) dimensions in response to differential impacts of anthropogenic pressure of distinct habitats.
+With this experiment, we illustrate how food webs are altered across structural (habitat coupling), functional (primary and secondary production), and dynamical (equilibrium and non-equilibrium stability) dimensions as a result of asymmetric rewiring. 
 
 Reproducibility
 Julia version: ≥1.9
