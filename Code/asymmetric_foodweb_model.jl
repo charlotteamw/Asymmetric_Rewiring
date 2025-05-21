@@ -340,18 +340,4 @@ end
 
 cv_plot = Plots.plot(cv_hold[:,1], cv_hold[:,2], legend = false, grid = false, lw = 5.0, color = "black", xlabel = "", ylabel = "", xflip = true, xtickfont = font(14), ytickfont = font(14))
 
-Plots.savefig(eq_R1, "/Users/charlotteward/Documents/Rewiring_Resubmission_EcologyLetters/Figure6_Julia/eq_R1.png")
-Plots.savefig(eq_C1, "/Users/charlotteward/Documents/Rewiring_Resubmission_EcologyLetters/Figure6_Julia/eq_C1.png")
-Plots.savefig(eq_R2, "/Users/charlotteward/Documents/Rewiring_Resubmission_EcologyLetters/Figure6_Julia/eq_R2.png")
-Plots.savefig(eq_C2, "/Users/charlotteward/Documents/Rewiring_Resubmission_EcologyLetters/Figure6_Julia/eq_C2.png")
-Plots.savefig(eq_P, "/Users/charlotteward/Documents/Rewiring_Resubmission_EcologyLetters/Figure6_Julia/eq_P.png")
-Plots.savefig(PC_biomass, "/Users/charlotteward/Documents/Rewiring_Resubmission_EcologyLetters/Figure6_Julia/PC_biomass.png")
-Plots.savefig(max_eig, "/Users/charlotteward/Documents/Rewiring_Resubmission_EcologyLetters/Figure6_Julia/max_eig.png")
-Plots.savefig(degree_coupling_plot, "/Users/charlotteward/Documents/Rewiring_Resubmission_EcologyLetters/Figure6_Julia/degree_coupling.png")
-Plots.savefig(pred_prod_plot, "/Users/charlotteward/Documents/Rewiring_Resubmission_EcologyLetters/Figure6_Julia/pred_prod.png")
-Plots.savefig(basal_prod_plot, "/Users/charlotteward/Documents/Rewiring_Resubmission_EcologyLetters/Figure6_Julia/basal_prod.png")
-Plots.savefig(int_prod_plot, "/Users/charlotteward/Documents/Rewiring_Resubmission_EcologyLetters/Figure6_Julia/int_prod.png")
-Plots.savefig(cv_plot, "/Users/charlotteward/Documents/Rewiring_Resubmission_EcologyLetters/Figure6_Julia/cv_plot.png")
 
-
-versioninfo()
