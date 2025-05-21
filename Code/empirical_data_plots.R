@@ -1,8 +1,5 @@
 library(ggplot2)
 library(tidyverse)
-library(patchwork)
-library(knitr)
-library(kableExtra)
 
 df_coupling <- read.csv("path to/DatasetS1.csv")
 
