@@ -14,7 +14,7 @@ The code includes:
 Data used in this analysis are available in DatasetS1.csv, which includes directional change (increase, decrease, no change) in habitat coupling for each study, the associated anthropogenic pressure, ecosystem type, and identified mechanism.
 
 Reproducibility:
-R version: ≥4.1
+R version: 4.4
 Key R packages: ggplot2, tidyverse, patchwork
 
 
@@ -30,5 +30,13 @@ The code includes:
 With this experiment, we illustrate how food webs are altered across structural (habitat coupling), functional (primary and secondary production), and dynamical (equilibrium and non-equilibrium stability) dimensions as a result of asymmetric rewiring. 
 
 Reproducibility
-Julia version: ≥1.9
-Key Julia packages: DifferentialEquations.jl, Plots.jl, NLsolve.jl, ForwardDiff.jl
+Julia version: 1.11.2
+Key Julia packages:
+Parameters.jl
+LinearAlgebra.jl
+ForwardDiff.jl
+QuadGK.jl
+NLsolve.jl
+DifferentialEquations.jl
+Plots.jl
+Statistics.jl
