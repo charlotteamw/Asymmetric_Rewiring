@@ -15,7 +15,7 @@ Data used in this analysis are available in DatasetS1.csv, which includes direct
 
 Reproducibility:
 R version: 4.4
-Key R packages: ggplot2, tidyverse, patchwork
+Key R packages: ggplot2, tidyverse
 
 
 **asymmetric_foodweb_model.jl**
