@@ -30,12 +30,4 @@ With this experiment, we illustrate how food webs are altered across structural 
 
 Reproducibility
 Julia version: 1.11.2
-Key Julia packages:
-Parameters.jl
-LinearAlgebra.jl
-ForwardDiff.jl
-QuadGK.jl
-NLsolve.jl
-DifferentialEquations.jl
-Plots.jl
-Statistics.jl
+Key Julia packages: Parameters.jl, LinearAlgebra.jl, ForwardDiff.jl, QuadGK.jl, NLsolve.jl, DifferentialEquations.jl, Plots.jl, Statistics.jl
